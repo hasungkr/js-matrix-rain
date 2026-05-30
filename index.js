@@ -21,10 +21,10 @@ for(let x = 0; x < columns; x++) {
 
 const draw = () => {
     context.fillStyle = 'rgba(0,0,0,0.05)';
-    context.fllRect(0,0,canvas.width, canvas.height);
+    context.fillRect(0,0,canvas.width, canvas.height);
 
     context.fillStyle = '#0F0';
-    context.font = fontSize + 'px monopace';
+    context.font = fontSize + 'px monospace';
 
     for(let i = 0; i < rainDrops.length; i++) {
         const text = alphabet.charAt(Math.floor(Math.random() * alphabet.length));
