@@ -12,3 +12,9 @@ const alphabet = katakana + latin + nums;
 
 const fontSize = 16;
 const columns = canvas.width/fontSize;
+
+const rainDrops = [];
+
+for(let x = 0; x < columns; x++) {
+    rainDrops[x] = 1;
+}
